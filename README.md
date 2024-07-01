@@ -55,7 +55,8 @@ An image encryption node-js cli
 ✔  Success  Image decrypted successfully
 
                         Decrypted Image: decryptedImage.png
+```
 
-## Limitation
 
+### Limitation
 While encryption and decryption is perfect on the png images. On jpg and jpeg, the operation is not perfect. Jpg and jpeg images are lossy and while encryption and decryption, a few pixels values are changed. The decrypted image is however, very similar to the original image but with a few pixels changed.
