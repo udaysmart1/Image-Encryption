@@ -2,9 +2,7 @@
 
 
 
-## Preview
 
-<a href="https://ibb.co/C0qF3fJ"><img src="https://i.ibb.co/5cdVgPY/Screenshot-2021-12-16-at-2-11-16-PM.png" alt="Screenshot-2021-12-16-at-2-11-16-PM" border="0"></a>
 
 ## Installation
 
@@ -96,9 +94,11 @@ An image encryption node-js cli
 
                         Decrypted Image: decryptedImage.png
 
- Give it a star on github:  https://github.com/theninza/imcrypt
 ```
+## Preview
 
-## Limitations
+<a href="https://ibb.co/C0qF3fJ"><img src="https://i.ibb.co/5cdVgPY/Screenshot-2021-12-16-at-2-11-16-PM.png" alt="Screenshot-2021-12-16-at-2-11-16-PM" border="0"></a>
+
+## Limitation
 
 While encryption and decryption is perfect on the png images. On jpg and jpeg, the operation is not perfect. Jpg and jpeg images are lossy and while encryption and decryption, a few pixels values are changed. The decrypted image is however, very similar to the original image but with a few pixels changed.
