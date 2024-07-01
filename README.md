@@ -13,27 +13,7 @@ Command
 imcrypt -e myImage.png -i encryptedImageName.png -p keyFile.txt
 ```
 
-output
 
-```sh
- imcrypt  v0.0.1 by theninza
-An image encryption node-js cli
-
-✔ Image read successfully
-✔ Output image file name is valid
-✔ Output key file name is valid
-✔ Image data read successfully
-✔ Key generated successfully
-✔ Image encrypted successfully
-✔ Image saved successfully
-✔ Key saved successfully
-
-✔  Image encrypted successfully  Image encrypted successfully:
-                                  Encrypted image: encryptedImageName.png
-                                  Key: keyFile.txt
-
- Give it a star on github:  https://github.com/theninza/imcrypt
-```
 
 ### For decrypting an image encryptedImage.png with its key key.txt to decryptedImage.png
 
@@ -41,21 +21,6 @@ An image encryption node-js cli
 imcrypt -d encryptedImage.png -k key.txt -i decryptedImage.png
 ```
 
-output
-
-```sh
- imcrypt  v0.0.1 by theninza
-An image encryption node-js cli
-
-✔ Image read successfully
-✔ Key read successfully
-✔ Decryption successful
-✔ Image saved successfully
-
-✔  Success  Image decrypted successfully
-
-                        Decrypted Image: decryptedImage.png
-```
 
 
 ### Limitation
