@@ -3,44 +3,6 @@
 
 
 
-
-## Installation
-
-```sh
-npm i -g imcrypt
-```
-
-## Usage
-
-```sh
-imcrypt <command> [option]
-```
-
-or run it directly using npx
-
-```sh
-npx imcrypt <command> [option]
-```
-
-### commands
-
-```sh
-help  #prints help info
-```
-
-### options
-
-```sh
-  -e, --encrypt              # The image to encrypt
-  -d, --decrypt              # The image to decrypt
-  -c, --clear                # Clear the console Default: false
-  --noClear                  # Don't clear the console Default: true
-  -v, --version              # Print CLI version Default: false
-  -k, --key                  # The key to use for decryption Default: false
-  -i, --outputImageFileName  # The output image
-  -p, --outputKeyFileName    # The output key
-```
-
 ## examples
 
 Command
@@ -93,11 +55,6 @@ An image encryption node-js cli
 ✔  Success  Image decrypted successfully
 
                         Decrypted Image: decryptedImage.png
-
-```
-## Preview
-
-<a href="https://ibb.co/C0qF3fJ"><img src="https://i.ibb.co/5cdVgPY/Screenshot-2021-12-16-at-2-11-16-PM.png" alt="Screenshot-2021-12-16-at-2-11-16-PM" border="0"></a>
 
 ## Limitation
 
